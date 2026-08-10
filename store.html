@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffd21a">
+  <meta name="description" content="Thunder MC — a competitive Minecraft Lifesteal server.">
+  <title>Thunder MC — Store</title>
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-glow"></div><div id="particles" aria-hidden="true"></div>
+<header class="navbar" id="navbar">
+  <a class="brand" href="index.html"><img src="logo.png" alt="Thunder MC logo"><span>THUNDER <b>MC</b></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav id="nav">
+    <a class="" href="index.html">Home</a>
+    <a class="" href="features.html">Features</a>
+    <a class="" href="rules.html">Rules</a>
+    <a class="" href="staff.html">Staff</a>
+    <a class="" href="news.html">News</a>
+    <a class="active" href="store.html">Store</a>
+    <a class="" href="vote.html">Vote</a>
+  </nav>
+  <a class="nav-discord" href="#" data-discord>Discord ↗</a>
+</header>
+<main>
+
+<section class="page-hero section reveal"><span class="kicker">THUNDER MC STORE</span><h1>POWER UP. <em>YOUR WAY.</em></h1><p>Choose your items, add them to your cart and send the order to Discord.</p></section>
+<section class="section store-note-section">
+  <div class="purchase-note glass reveal">
+    <div class="purchase-note-icon">⚡</div>
+    <div>
+      <strong>HOW TO BUY</strong>
+      <p>Add your items to the cart, click <b>ORDER VIA DISCORD</b>, then create a ticket in the Thunder MC Discord. Staff will confirm the order and payment manually.</p>
+    </div>
+  </div>
+</section>
+<section class="section store-section">
+  <div class="store-toolbar">
+    <div class="store-tabs" id="storeTabs">
+      <button class="tab active" data-filter="all">All</button><button class="tab" data-filter="ranks">Ranks</button><button class="tab" data-filter="bundles">Bundles</button><button class="tab" data-filter="crates">Crates</button><button class="tab" data-filter="coins">Coins</button><button class="tab" data-filter="cosmetics">Cosmetics</button>
+    </div>
+  </div>
+  <div class="store-layout">
+    <div class="product-grid" id="productGrid">
+      <article class="product-card reveal" data-category="ranks" data-name="THUNDER+ RANK" data-price="149"><div class="product-icon">♛</div><span class="product-cat">RANK</span><h3>THUNDER RANK</h3><p> Premium rank perks for your journey.</p><strong>₹149</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+      <article class="product-card reveal" data-category="ranks" data-name="VIP RANK" data-price="99"><div class="product-icon">◆</div><span class="product-cat">RANK</span><h3>LEGEND RANK</h3><p> rank perks for your journey.</p><strong>₹99</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+      <article class="product-card reveal" data-category="bundles" data-name="MVP RANK" data-price="49"><div class="product-icon">✦</div><span class="product-cat">BUNDLE</span><h3>STARTER BUNDLE</h3><p> rank perks for your journey.</p><strong>₹49</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+      <article class="product-card reveal" data-category="bundles" data-name="ELITE RANK" data-price="39"><div class="product-icon">⚔</div><span class="product-cat">BUNDLE</span><h3>BATTLE BUNDLE</h3><p>rank perks for your journey.</p><strong>₹39</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+      <article class="product-card reveal" data-category="crates" data-name="WILD CRATE KEY" data-price="40"><div class="product-icon">▣</div><span class="product-cat">CRATE</span><h3>ELITE CRATE KEY</h3><p>One key for the Crate.</p><strong>₹40</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+      <article class="product-card reveal" data-category="crates" data-name="INSANE CRATE KEY" data-price="20"><div class="product-icon">◇</div><span class="product-cat">CRATE</span><h3>LEGENDARY KEY</h3><p>One key for the Crate.</p><strong>₹20</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+      <article class="product-card reveal" data-category="coins" data-name="1 MILLION MONEY " data-price="59"><div class="product-icon">●</div><span class="product-cat">COINS</span><h3>500 COINS</h3><p>Use money for supported server purchases.</p><strong>₹59</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+      <article class="product-card reveal" data-category="coins" data-name="10 MILLION MONEY " data-price="99"><div class="product-icon">◎</div><span class="product-cat">COINS</span><h3>1200 COINS</h3><p>Use money for supported server purchases.</p><strong>₹99</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+      <article class="product-card reveal" data-category="cosmetics" data-name="50 MILLION MONEY " data-price="199"><div class="product-icon">✎</div><span class="product-cat">COSMETIC</span><h3>CHAT COLOR</h3><p>A Use money for supported server purchases.</p><strong>₹199</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+      <article class="product-card reveal" data-category="cosmetics" data-name="100 MILLION MONEY " data-price="279"><div class="product-icon">✧</div><span class="product-cat">COSMETIC</span><h3>PARTICLE TRAIL</h3><p>Use money for supported server purchases.</p><strong>₹279</strong><button class="btn btn-primary add-cart">ADD TO CART</button></article>
+    </div>
+    <aside class="cart glass"><div class="cart-head"><h2>YOUR <em>CART.</em></h2><span id="cartCount">0</span></div><div id="cartItems" class="cart-items"><p class="empty-cart">Your cart is empty.</p></div><div class="cart-total"><span>Total</span><strong id="cartTotal">₹0</strong></div><button class="btn btn-primary cart-order" id="orderDiscord">ORDER VIA DISCORD ↗</button><button class="btn btn-ghost cart-clear" id="clearCart">CLEAR CART</button><small>Orders are confirmed manually through Discord. Update the prices/items in <code>store.html</code> before launch.</small></aside>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="footer-main">
+    <a class="brand" href="index.html"><img src="logo.png" alt=""><span>THUNDER <b>MC</b></span></a>
+    <p>Built for players. Powered by community.</p>
+    <div class="footer-links">
+      <a href="features.html">Features</a><a href="rules.html">Rules</a><a href="staff.html">Staff</a><a href="news.html">News</a><a href="store.html">Store</a><a href="vote.html">Vote</a>
+    </div>
+  </div>
+  <div class="footer-bottom"><span>© <span id="year"></span> Thunder MC. All rights reserved.</span><span>Not affiliated with Mojang Studios.</span></div>
+</footer>
+<div class="toast" id="toast">Done!</div>
+<script src="script.js"></script>
+</body></html>
