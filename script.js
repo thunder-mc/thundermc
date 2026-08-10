@@ -1,8 +1,8 @@
 // Thunder MC site configuration.
 // Replace these two values with your real server IP and Discord invite before publishing.
 const CONFIG = {
-  serverIP: "play.thundermc.net",
-  discordURL: "https://discord.gg/yourserver"
+  serverIP: "play.thunder.sryze.cc:6762",
+  discordURL: "https://discord.gg/2KZFD6rBMk"
 };
 
 document.querySelectorAll("[data-discord]").forEach(el => {
