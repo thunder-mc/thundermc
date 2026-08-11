@@ -1,7 +1,7 @@
 // Thunder MC site configuration.
 // Replace these two values with your real server IP and Discord invite before publishing.
 const CONFIG = {
-  serverIP: "play.thunder.sryze.cc:6762",
+  serverIP: "thunder.sryze.cc:6762",
   discordURL: "https://discord.gg/2KZFD6rBMk"
 };
 
@@ -18,7 +18,10 @@ async function copyIP(){
   try{await navigator.clipboard.writeText(CONFIG.serverIP);showToast("Server IP copied!");}
   catch{showToast(CONFIG.serverIP);}
 }
-["copyIp","copyIp2","copyIpText"].forEach(id=>{const el=document.getElementById(id);if(el)el.addEventListener("click",copyIP);});
+["copyIp","copyIp2","copyIpText","copyBedrockIp"].forEach(id=>{
+  const el=document.getElementById(id);
+  if(el)el.addEventListener("click",copyIP);
+});
 
 const navbar=document.getElementById("navbar");
 window.addEventListener("scroll",()=>navbar&&navbar.classList.toggle("scrolled",scrollY>25));
