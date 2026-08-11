@@ -1,47 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <meta name="theme-color" content="#ffd21a">
-
-  <meta name="description"
-        content="Thunder MC is a competitive Minecraft Lifesteal server built around PvP, progression, events and community.">
-
-  <!-- Google / Search -->
-  <title>Thunder MC | Minecraft Lifesteal Server</title>
-
-  <link rel="canonical" href="https://thunder-mc.github.io/thundermc/">
-
-  <!-- Social Media / Discord Preview -->
+  <meta name="description" content="Thunder MC is a competitive Minecraft Lifesteal server built around PvP, progression, events and community.">
   <meta property="og:title" content="Thunder MC | Minecraft Lifesteal Server">
-
-  <meta property="og:description"
-        content="Join Thunder MC — a Minecraft Lifesteal server built for PvP, progression and community.">
-
+  <meta property="og:description" content="Join Thunder MC — a Minecraft Lifesteal server built for PvP, progression and community.">
   <meta property="og:site_name" content="Thunder MC">
-
   <meta property="og:type" content="website">
-
-  <meta property="og:url"
-        content="https://thunder-mc.github.io/thundermc/">
-
-  <meta property="og:image"
-        content="https://thunder-mc.github.io/thundermc/logo.png">
-
-  <!-- Website Icon -->
+  <title>Thunder MC | Minecraft Lifesteal Server</title>
   <link rel="icon" type="image/png" href="logo.png">
-
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-
-  <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-  <!-- CSS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+<body>
+<div class="page-glow"></div><div id="particles" aria-hidden="true"></div>
+<header class="navbar" id="navbar">
+  <a class="brand" href="index.html"><img src="logo.png" alt="Thunder MC logo"><span>THUNDER <b>MC</b></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav id="nav">
+    <a class="active" href="index.html">Home</a>
+    <a class="" href="features.html">Features</a>
+    <a class="" href="rules.html">Rules</a>
+    <a class="" href="staff.html">Staff</a>
+    <a class="" href="news.html">News</a>
+    <a class="" href="store.html">Store</a>
+    <a class="" href="vote.html">Vote</a>
+  </nav>
+  <a class="nav-discord" href="#" data-discord>Discord ↗</a>
+</header>
+<main>
+
+<section class="hero section">
+  <div class="hero-copy reveal">
+    <div class="eyebrow"><span class="live-dot"></span> SERVER ONLINE</div>
+    <h1>YOUR HEART.<br><em>YOUR STORY.</em></h1>
+    <p class="hero-text">Welcome to <strong>Thunder MC</strong> — a competitive Lifesteal experience where every heart matters. Build your empire, protect your base and make your name known.</p>
+    <div class="hero-actions"><button class="btn btn-primary" id="copyIp">▶ PLAY NOW</button><a class="btn btn-ghost" href="features.html">EXPLORE SERVER</a></div>
+    <div class="ip-line">
+  <span class="status-dot"></span>
+  <span>Java Edition</span>
+  <button id="copyIpText">
+    thunder.sryze.cc <span>⧉</span>
+  </button>
+</div>
+
+<div class="ip-line bedrock-line">
+  <span class="status-dot"></span>
+  <span>Bedrock Edition</span>
+  <button id="copyBedrockIp">
+    thunder.sryze.cc:6762 <span>⧉</span>
+  </button>
+</div>
+  </div>
+  <div class="hero-logo reveal delay-1"><div class="logo-ring"></div><img src="logo.png" alt="Thunder MC"><div class="logo-badge">LIFESTEAL • ECONOMY • COUSTUM KITS</div></div>
+</section>
+<section class="stats-wrap"><div class="stats glass reveal"><div><strong>24/7</strong><span>SERVER UPTIME</span></div><div><strong>1.21+</strong><span>CROSSPLAY SUPPORT</span></div><div><strong>∞</strong><span>ADVENTURES</span></div><div><strong>⚔</strong><span>LIFESTEAL PVP</span></div></div></section>
+<section class="section">
+  <div class="section-heading reveal"><span class="kicker">WELCOME TO THUNDER</span><h2>BUILT FOR <em>LEGENDS.</em></h2><p>Everything has its own page now, so players can quickly find exactly what they need.</p></div>
+  <div class="feature-grid">
+    <a class="feature-card reveal" href="features.html"><div class="feature-icon">✦</div><h3>SERVER FEATURES</h3><p>Explore Lifesteal, PvP, progression, events and community systems.</p><span class="card-number">01</span></a>
+    <a class="feature-card reveal delay-1" href="store.html"><div class="feature-icon">◆</div><h3>THUNDER STORE</h3><p>Browse ranks, bundles, crates, coins and cosmetics with a custom storefront.</p><span class="card-number">02</span></a>
+    <a class="feature-card reveal delay-2" href="rules.html"><div class="feature-icon">✓</div><h3>SERVER RULES</h3><p>Read the rules before playing and keep the community fair.</p><span class="card-number">03</span></a>
+  </div>
+</section>
+<section class="section cta reveal"><div class="cta-inner"><div><span class="kicker">READY?</span><h2>MAKE YOUR <em>LEGEND.</em></h2><p>Grab your friends. Join the server. Protect your hearts.</p></div><div class="cta-actions"><button class="btn btn-primary" id="copyIp2">COPY IP</button><a class="btn btn-ghost" href="store.html">OPEN STORE</a></div></div></section>
+
+</main>
+<footer>
+  <div class="footer-main">
+    <a class="brand" href="index.html"><img src="logo.png" alt=""><span>THUNDER <b>MC</b></span></a>
+    <p>Built for players. Powered by community.</p>
+    <div class="footer-links">
+      <a href="features.html">Features</a><a href="rules.html">Rules</a><a href="staff.html">Staff</a><a href="news.html">News</a><a href="store.html">Store</a><a href="vote.html">Vote</a>
+    </div>
+  </div>
+  <div class="footer-bottom"><span>© <span id="year"></span> Thunder MC. All rights reserved.</span><span>Not affiliated with Mojang Studios.</span></div>
+</footer>
+<div class="toast" id="toast">Done!</div>
+<script src="script.js"></script>
+</body></html>
